@@ -1,0 +1,5 @@
+﻿CREATE SCHEMA [MOB]
+    AUTHORIZATION [dbo];
+
+
+

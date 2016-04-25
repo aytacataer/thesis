@@ -1,0 +1,5 @@
+C:\Users\Aytaç Ataer\Documents\_DATA\DevDeployment\Entegral.ECommerce.Database.ECOM.dacpac
+C:\Users\Aytaç Ataer\Documents\_DATA\DevDeployment\Entegral.ECommerce.Database.ECOM.dll
+C:\Users\Aytaç Ataer\Documents\_DATA\DevDeployment\Entegral.ECommerce.Database.ECOM.pdb
+C:\Users\Aytaç Ataer\Documents\Thesis\Entegral.ECommerce.Database.ECOM\obj\Debug\Entegral.ECommerce.Database.ECOM.dll
+C:\Users\Aytaç Ataer\Documents\Thesis\Entegral.ECommerce.Database.ECOM\obj\Debug\Entegral.ECommerce.Database.ECOM.pdb

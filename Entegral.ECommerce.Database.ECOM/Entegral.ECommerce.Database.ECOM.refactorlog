@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="276b9235-992f-4ab4-bd77-ac30704ac405" ChangeDateTime="03/10/2014 13:47:27">
+    <Property Name="ElementName" Value="[LK].[Store].[IsGiftCardProRestrictionActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[LK].[Store]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sCartGiftCardRestrictionActive" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5987f5f9-6c97-4b8e-a8dc-9cca749f5c21" ChangeDateTime="03/10/2014 13:47:33">
+    <Property Name="ElementName" Value="[LK].[Store].[sCartGiftCardRestrictionActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[LK].[Store]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsCartGiftCardRestrictionActive" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a171510-d4de-4715-91af-321c93d600b0" ChangeDateTime="04/09/2014 13:42:16">
+    <Property Name="ElementName" Value="[LK].[UserPackagingLocation].[Can]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[LK].[UserPackagingLocation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CanCreateReturnInvoice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="96dc00b1-d463-4619-aedd-bcae9d8ea081" ChangeDateTime="04/10/2014 08:05:24">
+    <Property Name="ElementName" Value="[SALES].[OrderItem].[AssurerUserID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[SALES].[OrderItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AssurerUser" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dff0f643-8fa3-4d2c-bba8-1f63e83431a3" ChangeDateTime="12/31/2014 13:07:05">
+    <Property Name="ElementName" Value="[CMS].[FK_Banner_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[CMS].[Banner]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Banner_BannerTemplate]" />
+  </Operation>
+</Operations>

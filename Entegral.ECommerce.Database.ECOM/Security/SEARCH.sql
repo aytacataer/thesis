@@ -1,0 +1,11 @@
+﻿CREATE SCHEMA [SEARCH]
+    AUTHORIZATION [dbo];
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{825B217B-8796-4E13-9AB0-AB59DBC23893}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entegral.ECommerce.DataContext</RootNamespace>
+    <AssemblyName>Entegral.ECommerce.DataContext</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-Azure|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-Azure\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Prod-Azure|AnyCPU'">
+    <OutputPath>bin\Prod-Azure\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Store-Test-Azure|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Store-Test-Azure\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Demo-Azure|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Demo-Azure\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-Runibex|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-Runibex\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-PTS-Boyner|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-PTS-Boyner\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-OAC-Boyner|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-OAC-Boyner\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Prod-OAC-Boyner|AnyCPU'">
+    <OutputPath>bin\Prod-OAC-Boyner\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Prod-Runibex|AnyCPU'">
+    <OutputPath>bin\Prod-Runibex\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-Aymarka|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-Aymarka\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Prod-Aymarka|AnyCPU'">
+    <OutputPath>bin\Prod-Aymarka\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-Boyner|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-Boyner\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test-Fabrika|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test-Fabrika\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Prod-Fabrika|AnyCPU'">
+    <OutputPath>bin\Prod-Fabrika\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Prod-Network|AnyCPU'">
+    <OutputPath>bin\Prod-Network\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SolrNet, Version=0.5.0.1001, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SolrNet.0.5.0.1001\lib\SolrNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EComDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EComDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EComPackageDataContextProvider.cs" />
+    <Compile Include="EComMonitorDataContextProvider.cs" />
+    <Compile Include="EComDataContextProvider.cs" />
+    <Compile Include="EComDB.cs">
+      <DependentUpon>EComDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EComHistoryDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EComHistoryDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EComIntegrationDataContextProvider.cs" />
+    <Compile Include="EComIntegrationDB.cs">
+      <DependentUpon>EComIntegrationDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EComIntegrationDB.designer.cs">
+      <DependentUpon>EComIntegrationDB.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="EComMonitorDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EComMonitorDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EComPackageDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EComPackageDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Partial\Banner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Partial\Banner_Lang.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Partial\Campaign.cs" />
+    <Compile Include="Partial\CampaignAction.cs" />
+    <Compile Include="Partial\Campaign_Lang.cs" />
+    <Compile Include="Partial\Category.cs" />
+    <Compile Include="Partial\Category_Lang.cs" />
+    <Compile Include="Partial\Content.cs" />
+    <Compile Include="Partial\Content_Lang.cs" />
+    <Compile Include="Partial\BannerData.cs" />
+    <Compile Include="Partial\BannerData_Lang.cs" />
+    <Compile Include="Partial\ContentData.cs" />
+    <Compile Include="Partial\ContentData_Lang.cs" />
+    <Compile Include="Partial\GetIndexableProductsResult.cs" />
+    <Compile Include="Solr\Model\BoynerProduct.cs" />
+    <Compile Include="Solr\Model\NetworkProduct.cs" />
+    <Compile Include="Solr\Model\FabrikaProduct.cs" />
+    <Compile Include="Solr\Model\DivareseProduct.cs" />
+    <Compile Include="Solr\Model\Interface\ISolrMapableResult.cs" />
+    <Compile Include="Partial\vStore_ListingPage_ProductMedia.cs" />
+    <Compile Include="Partial\OrderItem.cs" />
+    <Compile Include="Partial\vBO_InvitationConfiguration.cs" />
+    <Compile Include="Partial\InvitationConfiguration_Lang.cs" />
+    <Compile Include="Partial\PaymentMethod.cs" />
+    <Compile Include="Partial\PaymentMethod_Lang.cs" />
+    <Compile Include="Partial\Country.cs" />
+    <Compile Include="Partial\Country_Lang.cs" />
+    <Compile Include="Partial\EducationLevel.cs" />
+    <Compile Include="Partial\EducationLevel_Lang.cs" />
+    <Compile Include="Partial\Gender.cs" />
+    <Compile Include="Partial\Gender_Lang.cs" />
+    <Compile Include="Partial\Job.cs" />
+    <Compile Include="Partial\Job_Lang.cs" />
+    <Compile Include="Partial\MaritalStatus.cs" />
+    <Compile Include="Partial\MaritalStatus_Lang.cs" />
+    <Compile Include="Partial\MessageTemplate.cs" />
+    <Compile Include="Partial\MessageTemplate_Lang.cs" />
+    <Compile Include="Partial\Atribute.cs" />
+    <Compile Include="Partial\AttributeOption.cs" />
+    <Compile Include="Partial\ProductAttribute.cs" />
+    <Compile Include="Partial\ProductMedia.cs" />
+    <Compile Include="Partial\ProductMedia_Lang.cs" />
+    <Compile Include="Partial\Showcase.cs" />
+    <Compile Include="Partial\Showcase_Lang.cs" />
+    <Compile Include="Partial\StatusCode.cs" />
+    <Compile Include="Partial\StatusCode_Lang.cs" />
+    <Compile Include="Partial\ProductAttribute_Lang.cs" />
+    <Compile Include="Partial\AttributeOption_Lang.cs" />
+    <Compile Include="Partial\Atribute_Lang.cs" />
+    <Compile Include="Partial\Product.cs" />
+    <Compile Include="Partial\Product_Lang.cs" />
+    <Compile Include="Partial\vBO_CountryLang.cs" />
+    <Compile Include="Partial\vBO_OrderMain.cs" />
+    <Compile Include="Partial\vStore_Product.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QueryHelper.cs" />
+    <Compile Include="Partial\SEOSetting.cs" />
+    <Compile Include="Partial\SEOSetting_Lang.cs" />
+    <Compile Include="Solr\Model\BeymenProduct.cs" />
+    <Compile Include="Solr\Model\SolrField.cs" />
+    <Compile Include="Solr\Model\SolrFilters.cs" />
+    <Compile Include="Solr\Model\SolrProduct.cs" />
+    <Compile Include="Solr\Model\YkmProduct.cs" />
+    <Compile Include="Solr\SolrRepository.cs" />
+    <Compile Include="Solr\SolrUtils.cs" />
+    <Compile Include="StoreTypeEnum.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EComDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>EComDB.designer.cs</LastGenOutput>
+    </None>
+    <None Include="EComHistoryDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>EComHistoryDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EComIntegrationDB.dbml">
+      <SubType>Designer</SubType>
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>EComIntegrationDB.designer.cs</LastGenOutput>
+    </None>
+    <None Include="EComIntegrationDB.dbml.layout">
+      <DependentUpon>EComIntegrationDB.dbml</DependentUpon>
+    </None>
+    <None Include="EComMonitorDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>EComMonitorDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EComPackageDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>EComPackageDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EComDB.dbml.layout">
+      <DependentUpon>EComDB.dbml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entegral.ExtendedDataContext\Entegral.ExtendedDataContext.csproj">
+      <Project>{D5078D43-95E8-4844-BC81-32A9E4F2A88F}</Project>
+      <Name>Entegral.ExtendedDataContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entegral.Extensions\Entegral.Extensions.csproj">
+      <Project>{5DC046CB-F8CD-40F4-8547-F2E9C0B6467E}</Project>
+      <Name>Entegral.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entegral.Repository\Entegral.Repository.csproj">
+      <Project>{952BA914-A810-40BD-9879-C0F99C27CEC0}</Project>
+      <Name>Entegral.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entegral.Utils\Entegral.Utils.csproj">
+      <Project>{46E3B041-2A05-4DEF-95F8-5C914F0F5FE8}</Project>
+      <Name>Entegral.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EComHistoryDB.dbml.layout">
+      <DependentUpon>EComHistoryDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EComMonitorDB.dbml.layout">
+      <DependentUpon>EComMonitorDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EComPackageDB.dbml.layout">
+      <DependentUpon>EComPackageDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

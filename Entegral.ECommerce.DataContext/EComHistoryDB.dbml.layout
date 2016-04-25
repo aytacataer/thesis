@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 22.875" name="EComHistoryDB">
+  <DataContextMoniker Name="/EComHistoryDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9aad60c9-742d-42d4-8250-da9a4e36827d" absoluteBounds="0.75, 0.75, 2, 4.8477197265625">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/PaymentInfo_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="740ea843-432c-46cc-bc09-eba286caafe0" absoluteBounds="0.765, 1.21, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e34f0640-89e7-4974-9820-22156e3dfdf9" absoluteBounds="3.75, 0.75, 2, 6.1938297526041657">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/Customer_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa18423e-d81b-4491-9b95-031ef833e453" absoluteBounds="3.765, 1.21, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="18812e8a-cbde-484c-b568-5f1b6930ff2a" absoluteBounds="6.75, 0.75, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/Invoice_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ea5836f-3348-452e-b080-21ba1ef66c03" absoluteBounds="6.765, 1.21, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4beb446e-0d3c-4c85-8c00-efbb987edf25" absoluteBounds="6.75, 6.75, 2, 8.69374837239583">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/OrderItem_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6cbbdd37-f075-4390-9916-f9bf4fe3b2c6" absoluteBounds="6.765, 7.21, 1.9700000000000002, 8.1337483723958321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f266bbee-0908-4aac-bef4-ea4e08fc9dca" absoluteBounds="0.75, 7.75, 2, 14.847394205729163">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/OrderMain_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07ebee87-cbad-4beb-923e-68b2d1c266a7" absoluteBounds="0.765, 8.21, 1.9700000000000002, 14.287394205729166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2bf3a0ac-903a-4dbf-9933-f6df8a8bf09a" absoluteBounds="3.375, 7.75, 2, 14.847394205729163">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/vBO_OrderMain_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca2836f3-0c4f-4c29-a8fa-e65251f2a3dd" absoluteBounds="3.39, 8.21, 1.9700000000000002, 14.287394205729166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4484ef96-6526-4175-94ba-761998ea7fc9" absoluteBounds="9.375, 0.75, 2, 8.5014469401041666">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/vBO_OrderItem_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c35b75ec-99d3-4ec6-9efc-0985f9427eb9" absoluteBounds="9.39, 1.21, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8254c89-a269-43fa-8ad6-f29ff37b9ffd" absoluteBounds="7, 6, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/EComHistoryDBDataContext/Shipment_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="139cbae7-802a-429b-a32c-2f0cd2c43a36" absoluteBounds="7.015, 6.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
