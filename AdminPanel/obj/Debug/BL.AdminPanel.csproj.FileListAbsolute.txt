@@ -1,0 +1,5 @@
+c:\Users\aytaç ataer\documents\Thesis\AdminPanel\bin\Debug\AdminPanel.dll
+c:\Users\aytaç ataer\documents\Thesis\AdminPanel\bin\Debug\AdminPanel.pdb
+c:\Users\aytaç ataer\documents\Thesis\AdminPanel\obj\Debug\BL.AdminPanel.csprojResolveAssemblyReference.cache
+c:\Users\aytaç ataer\documents\Thesis\AdminPanel\obj\Debug\AdminPanel.dll
+c:\Users\aytaç ataer\documents\Thesis\AdminPanel\obj\Debug\AdminPanel.pdb

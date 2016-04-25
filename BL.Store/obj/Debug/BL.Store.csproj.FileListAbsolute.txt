@@ -1,0 +1,5 @@
+c:\Users\aytaç ataer\documents\Thesis\BL.Store\bin\Debug\BL.Store.dll
+c:\Users\aytaç ataer\documents\Thesis\BL.Store\bin\Debug\BL.Store.pdb
+c:\Users\aytaç ataer\documents\Thesis\BL.Store\obj\Debug\BL.Store.csprojResolveAssemblyReference.cache
+c:\Users\aytaç ataer\documents\Thesis\BL.Store\obj\Debug\BL.Store.dll
+c:\Users\aytaç ataer\documents\Thesis\BL.Store\obj\Debug\BL.Store.pdb

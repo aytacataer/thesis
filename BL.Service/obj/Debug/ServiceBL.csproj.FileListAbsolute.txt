@@ -1,0 +1,5 @@
+c:\Users\aytaç ataer\documents\Thesis\BL.Service\bin\Debug\BL.Service.dll
+c:\Users\aytaç ataer\documents\Thesis\BL.Service\bin\Debug\BL.Service.pdb
+c:\Users\aytaç ataer\documents\Thesis\BL.Service\obj\Debug\ServiceBL.csprojResolveAssemblyReference.cache
+c:\Users\aytaç ataer\documents\Thesis\BL.Service\obj\Debug\BL.Service.dll
+c:\Users\aytaç ataer\documents\Thesis\BL.Service\obj\Debug\BL.Service.pdb
