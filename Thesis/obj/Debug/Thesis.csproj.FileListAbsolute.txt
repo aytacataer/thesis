@@ -1,0 +1,6 @@
+c:\users\aytaç ataer\documents\Thesis\Thesis\bin\Thesis.dll.config
+c:\users\aytaç ataer\documents\Thesis\Thesis\bin\Thesis.dll
+c:\users\aytaç ataer\documents\Thesis\Thesis\bin\Thesis.pdb
+c:\users\aytaç ataer\documents\Thesis\Thesis\obj\Debug\Thesis.csprojResolveAssemblyReference.cache
+c:\users\aytaç ataer\documents\Thesis\Thesis\obj\Debug\Thesis.dll
+c:\users\aytaç ataer\documents\Thesis\Thesis\obj\Debug\Thesis.pdb
